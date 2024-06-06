@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/sums")
-public class controller {
+public class Controller {
 
     @Autowired
     private Service service;
