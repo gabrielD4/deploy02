@@ -1,0 +1,9 @@
+spring:
+  activate:
+    on-profiles: test
+server:
+  port: 4000
+
+integerProperties:
+  a: ${random.int}
+  b: ${random.int}
